@@ -35,15 +35,11 @@ Our deployment runs three independent mathematical processes under the hood and 
    git clone https://github.com/yourusername/Breaking-Fake.git
    cd Breaking-Fake
    ```
-2. Activate your Virtual Environment (Windows logging env):
-   ```bash
-   logz\Scripts\activate
-   ```
-3. Install Dependencies:
+2. Install Dependencies:
    ```bash
    pip install -r requirements.txt
    ```
-4. Run the Streamlit UI:
+3. Run the Streamlit UI:
    ```bash
    streamlit run app.py
    ```
